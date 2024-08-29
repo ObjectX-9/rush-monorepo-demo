@@ -110,3 +110,5 @@ dist-storybook/
 # Heft temporary files
 .cache/
 .heft/
+
+*storybook.log
