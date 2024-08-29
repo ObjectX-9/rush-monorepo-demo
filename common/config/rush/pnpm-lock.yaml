@@ -56,6 +56,9 @@ importers:
 
   ../../projects/test-ui:
     dependencies:
+      gl-matrix:
+        specifier: ^3.4.3
+        version: 3.4.3
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -96,6 +99,9 @@ importers:
       '@storybook/test':
         specifier: ^8.2.9
         version: 8.2.9(storybook@8.2.9)
+      '@types/gl-matrix':
+        specifier: ^3.2.0
+        version: 3.2.0
       '@types/react':
         specifier: ^18.3.3
         version: 18.3.3
@@ -2765,6 +2771,13 @@ packages:
     resolution: {integrity: sha512-frsJrz2t/CeGifcu/6uRo4b+SzAwT4NYCVPu1GN8IB9XTzrpPkGuV0tmh9mN+/L0PklAlsC3u5Fxt0ju00LXIw==}
     dev: true
 
+  /@types/gl-matrix@3.2.0:
+    resolution: {integrity: sha512-CY4JAtSOGQX7rVgqVuOk7ZfaLv8VeadDMPj3smMOy8Hp/YiHONa3Mr0mEUgbo0eEwV7+Owpf6BwspcA7hv4NXg==}
+    deprecated: This is a stub types definition. gl-matrix provides its own type definitions, so you do not need this installed.
+    dependencies:
+      gl-matrix: 3.4.3
+    dev: true
+
   /@types/glob@7.2.0:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
@@ -4403,6 +4416,9 @@ packages:
   /github-slugger@2.0.0:
     resolution: {integrity: sha512-IaOQ9puYtjrkq7Y0Ygl9KDZnrf/aiUJYUpVf89y8kyaxbRG7Y1SrX/jaumrv81vc61+kiMempujsM3Yw7w5qcw==}
     dev: true
+
+  /gl-matrix@3.4.3:
+    resolution: {integrity: sha512-wcCp8vu8FT22BnvKVPjXa/ICBWRq/zjFfdofZy1WSpQZpphblv12/bOQLBC1rMM7SGOFS9ltVmKOHil5+Ml7gA==}
 
   /glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
